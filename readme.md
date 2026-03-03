@@ -18,7 +18,7 @@ Backend API (FastAPI)
         ↓
 Analytics Engine (NumPy / SciPy)
         ↓
-PostgreSQL Database
+SQL Database
 
 <h3>🛠 Tech Stack</h3>
 Data & Analytics
@@ -31,25 +31,6 @@ API
 SQL
 Frontend
 React
-
-<h3>📂 Database Schema</h3>
-stocks
-Column	Description
-id	Primary Key
-ticker	Stock symbol
-company_name	Company name
-prices
-Column	Description
-id	Primary Key
-stock_id	Foreign Key
-date	Trading date
-adj_close	Adjusted closing price
-portfolio
-Column	Description
-id	Primary Key
-stock_id	Foreign Key
-weight	Allocation weight
-Indexes are applied on (stock_id, date) for optimized retrieval.
 
 <h3>📈 Core Features</h3>
 1️⃣ Data Processing
